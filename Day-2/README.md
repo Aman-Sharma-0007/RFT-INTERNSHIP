@@ -1,103 +1,109 @@
-📌 Blog System with Users (Backend Internship - Day 2)
-🚀 Project Overview
+# 📘 Day 2 - Blog System with Users
 
-This project is part of the Backend Internship - Day 2.
-The goal is to build a Blog System with Users, focusing on handling relationships between multiple entities like users and posts.
+This project is part of my **Backend Development Internship**.  
+In Day 2, I built a **Blog System** that supports users and posts with proper relationships.
 
-🎯 Objectives
-Understand relationships between entities
-Build a multi-entity backend system
-Implement CRUD operations with proper data linking
+---
 
+## 🚀 Features
 
-🛠️ Tech Stack
-Node.js
-Express.js
-MongoDB
-Mongoose
+- 👤 Create Users
+- 📝 Create Posts
+- 🔗 User → Post Relationship
+- 📄 Fetch All Posts
+- 📌 Fetch Posts by Specific User
 
+---
 
-📂 Features
-✅ Core Features
-👤 Create Users
-📝 Create Posts
-🔗 Link Posts to Users
-🔍 Data Fetching
-📄 Fetch all posts
-👨‍💻 Fetch posts by a specific user
-⭐ Bonus Features
-💬 Add Comments System
-✏️ Edit/Delete posts (only by owner)
+## 🧠 Concepts Covered
 
+- Multi-entity system design
+- Data relationships (User → Post)
+- REST API structure
+- Backend project structuring
 
-🔗 Data Relationships
-One User → Many Posts
-Each post is linked to a specific user using references (User ID)
-📌 API Endpoints (Sample)
-👤 User Routes
-POST /users → Create a new user
-GET /users → Get all users
-📝 Post Routes
-POST /posts → Create a post
-GET /posts → Get all posts
-GET /posts/user/:userId → Get posts by user
+---
 
+## 🛠️ Tech Stack
 
-📁 Folder Structure
-project-root/
-│── models/
-│   ├── User.js
-│   └── Post.js
-│
-│── routes/
-│   ├── userRoutes.js
-│   └── postRoutes.js
-│
-│── controllers/
-│   ├── userController.js
-│   └── postController.js
-│
-│── middleware/
-│   ├── protect.js      
-│     
-│── config/
-│   └── db.js
-│
-│── server.js
-│── package.json
+- Node.js
+- Express.js
+- (Add MongoDB / MySQL if you used it)
 
+---
 
-▶️ How to Run
-Clone the repository
-git clone <your-repo-link>
-Install dependencies
+## 📂 Project Structure
+
+day2/
+└── blog-system/
+├── models/
+├── routes/
+├── controllers/
+|--middleware/
+|--config/
+├── package.json
+|-package-lock.json
+└── server.js
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Aman-Sharma-0007/RFT-INTERNSHIP.git
+```
+
+Navigate to the project directory:
+
+cd rftinternship/day2/blog-system
+
+Install dependencies:
+
 npm install
-Start server
-npm start
-Server will run on:
-http://localhost:3000
+
+Start the server:
+
+npm run dev
+
+📌 API Endpoints
+👤 Users
+
+POST /users → Create a new user
+
+📝 Posts
+
+POST /posts → Create a new post
+
+GET /posts → Fetch all posts
+
+GET /posts/:userId → Fetch posts by user
+
+🎯 Learning Outcomes
+
+Understood how to link multiple entities in backend
+
+Learned to structure scalable backend projects
+
+Practiced building REST APIs
+
+Gained hands-on experience with real-world backend logic
+
+📅 Internship Progress
+
+✅ Day 1: Full Authentication System with JWT
+
+✅ Day 2: Blog System with Users
+
+🔗 Connect with Me
 
 
-📅 Internship Rules Followed
-✅ Daily coding completion
-✅ Daily GitHub commits
-✅ LinkedIn progress sharing
-✅ Timely submission
 
+💻 GitHub: https://github.com/Aman-Sharma-0007
 
-📈 Learning Outcomes
-Learned how to design backend systems with relationships
-Gained hands-on experience with MongoDB & Mongoose
-Understood API structuring and data linking
+⭐ Acknowledgment
+This project is part of the GOW AI Academy Backend Internship Program.
 
-
-📌 Future Improvements
-Add authentication (JWT)
-Improve validation
-Add pagination & search
-Deploy the project
-
-
-🙌 Acknowledgment
-
-This project is part of the Backend Internship program focused on real-world backend development.
+📌 Note
+This project is built for learning purposes and demonstrates backend fundamentals like routing, relationships, and API handling.

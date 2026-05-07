@@ -1,0 +1,25 @@
+{
+  "name": "random-data-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   "dev": "concurrently \"nodemon services/quote-service/index.js\" \"nodemon services/joke-service/index.js\" \"nodemon services/fact-service/index.js\" \"nodemon api-gateway/index.js\"",
+  "start": "concurrently \"node services/quote-service/index.js\" \"node services/joke-service/index.js\" \"node services/fact-service/index.js\" \"node api-gateway/index.js\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "bcryptjs": "^3.0.3",
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

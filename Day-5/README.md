@@ -131,8 +131,8 @@ node gateway.js
 or
 
 nodemon gateway.js
-🌐 Server Runs On
-http://localhost:3000
+🌐 Server Runs On:
+http://localhost:5000
 
 
 ## 🧪 Testing

@@ -46,7 +46,6 @@ day5-api-tester/
 ├── package.json
 └── README.md
 
-
  ## Features
 Multiple API routes
 Organized endpoint structure

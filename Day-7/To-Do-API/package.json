@@ -1,0 +1,24 @@
+{
+  "name": "to-do-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gateway": "node api-gateway/index.js",
+    "task": "node task-service/index.js",
+    "status": "node status-service/index.js",
+    "filter": "node filter-service/index.js",
+    "dev": "concurrently \"npm run gateway\" \"npm run task\" \"npm run status\" \"npm run filter\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^4.0.0",
+    "mongoose": "^9.6.2"
+  }
+}

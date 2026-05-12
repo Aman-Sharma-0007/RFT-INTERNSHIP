@@ -179,7 +179,7 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Yogender** — GOW AI Academy Backend Internship
+**Aman Sharma** — GOW AI Academy Backend Internship
 - GitHub: (https://github.com/Aman-Sharma-0007)
 
 

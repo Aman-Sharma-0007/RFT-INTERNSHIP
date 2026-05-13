@@ -41,13 +41,13 @@ auth-service/
 ### Prerequisites
 
 - Node.js v18+
-- MongoDB running locally or a MongoDB Atlas URI
+- MongoDB running locally or a MongoDB Compass URI
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/auth-service.git
+git clone https://github.com/Aman-Sharma-0007/auth-service.git
 cd auth-service
 
 # Install dependencies

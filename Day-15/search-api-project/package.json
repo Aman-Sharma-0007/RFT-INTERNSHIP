@@ -1,0 +1,20 @@
+{
+  "name": "search-api-project",
+  "version": "1.0.0",
+  "description": "Day 15 - Search API with Axios + Microservice Architecture",
+  "scripts": {
+    "start:gateway": "node gateway/gateway.js",
+    "start:products": "node products-service/products.routes.js",
+    "start:users": "node users-service/users.routes.js",
+    "start:posts": "node posts-service/posts.routes.js",
+    "start:all": "concurrently \"npm run start:gateway\" \"npm run start:products\" \"npm run start:users\" \"npm run start:posts\""
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  }
+}

@@ -1,6 +1,6 @@
 # 🔐 Full Authentication System
 
-> A secure REST API backend built with Node.js, Express, JWT, and MongoDB — Day 1 of Ruhil Future Technologies Backend Internship.
+> A secure REST API backend built with Node.js, Express, JWT, and MongoDB — Day 13 of Ruhil Future Technologies Backend Internship.
 
 ---
 

@@ -266,7 +266,7 @@ Client
 | Detail | Info |
 |--------|------|
 | Program | GOW AI Academy Backend Internship |
-| Day | Day 13 |
+| Day | Day 16 |
 | Project | Full Authentication System |
 | Hashtags | #gowaiacademy #rftinternship |
 

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "concurrently \"nodemon services/product-service/index.js\" \"nodemon services/cart-service/index.js\" \"nodemon services/order-service/index.js\"",
+    "start": "concurrently \"node services/product-service/index.js\" \"node services/cart-service/index.js\" \"node services/order-service/index.js\""
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
